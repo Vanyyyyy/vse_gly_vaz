@@ -1,0 +1,57 @@
+.navbar {
+    background-color:#5B72EB;
+}
+
+.nav_item {
+    color: black;
+    font-size: 24px;
+}
+
+.modal-content{
+    background-color:#5B72EB;
+}
+
+.first{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.second{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.thrid{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.card{
+    background-color: #5B72EB ;
+    margin-top: 30px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+#head{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#btn_order{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.car_heading{
+    margin-top: 50px;
+    font-size: 42px;
+}
+
+footer{
+    padding-bottom: 100px;
+}
+
+#cart_btn{
+    margin-left: 100px;
+}

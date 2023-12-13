@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>O товаре</title>
+        <link rel="icon" href="/css/img/main_theme.png">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+    <nav class="navbar sticky-top">
+        <div class="container">
+            <img src="/css/img/main_theme.png" alt="">
+            <a class="nav_item link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/index.html">Автомобили</a>
+            <a class="nav_item link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="!">Запчасти</a>
+            <a class="nav_item link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="!">Аксессуары</a>
+            <a class="nav_item link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/cart.html">Корзина</a>
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#signIn">Вход</button>
+        </div>
+    </nav>
+
+     <!-- Modal -->
+     <div class="modal fade" id="signIn" tabindex="-1" aria-hidden="true" aria-labelledby="signInLable">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-light" id="signInLable">Регистрация</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row mb-3 justify-content-between">
+                            <div class="col-5">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="inputLogin" placeholder="Логин">
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="inputName" placeholder="Имя">
+                            </div>
+                            <div class="col-5">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+                            </div>
+                        </div>
+                        <div class="mt-3 form-check ">
+                            <input class=" col-1 form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                            <label class="col-11 form-check-label" for="invalidCheck2">
+                                Я ознакомился и подтверждаю согласие с условиями пользовательского соглашения
+                            </label>
+                          </div>
+                   </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-success">Сохранить изменения</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <main>
+        <div class="container">
+            <div class="car_heading fw-bold">
+                <p>LADA SAMARA 2114 2008</p>
+            </div>
+            <div class="photo_car">
+                <img src="/css/img/car.png" class="img-thumbnail col-3" alt="...">
+            </div>
+            <img src="/css/img/car.png" class="img-thumbnail col-1" alt="">
+            <img src="/css/img/car.png" class="img-thumbnail col-1" alt="">
+            <img src="/css/img/car.png" class="img-thumbnail col-1" alt="">
+            <button type="button" id="cart_btn" class="btn col-2 btn-dark">В корзину</button>
+            <div id="prise">
+                <h2>400000₽</h2>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h2 id="transmission_box">Коробка передачи:</h2> 
+                </div>
+                <div class="col-1">
+                    <h3>меахника</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h2 id="power">Двиагетль:</h2> 
+                </div>
+                <div class="col-1">
+                    <h3>81 л.с.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h2 id="color">Цвет:</h2> 
+                </div>
+                <div class="col-1">
+                    <h3>Белый</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h2 id="mileage">Пробег:</h2> 
+                </div>
+                <div class="col-1">
+                    <h3>120000</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h2 id="drive">Привод:</h2> 
+                </div>
+                <div class="col-1">
+                    <h3>Передний</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-black footer">
+        <div class="container">
+            <div class="row">  
+                <div class="col-2">
+                    <img src="/css/img/main_theme.png" alt="">
+                </div>
+                <div class="col-5">
+                    <p class="first text-light fs-5">OOO "Перчики" ИНН:73482334 КПП:46582376</p>
+                </div>
+                <div class="col-2">
+                    <p class="second text-light fs-4 text-uppercase">всё для vaz</p>
+                </div> 
+                <div class="col-3">
+                    <p class="thrid text-light fs-4">+7-999-999-99-99</p>
+                </div>            
+            </div>
+            <div class="text-light ">
+                <p>Обратите внимание! Данный сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ.</p>
+                <p>Оставляя свои персональные данные в любых формах, а также при звонке на номера, указанные на сайте, вы даёте согласие на обработку и использование персональных данных. Все персональные данные подлежат обработке в соответствии с политикой конфиденциальности и защищены Федеральным законом Российской Федерации от 27 июля 2006 г. № 152-ФЗ.</p>
+                <p>Все цены указаны с учётом скидок</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
